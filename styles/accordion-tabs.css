@@ -1,0 +1,12 @@
+
+.main-body-accordion {
+	margin: 3rem auto;
+	width: 60%;
+}
+
+.main-body-accordion-header {
+	background-color: #D1D2D3;
+	border: none;
+	text-decoration: none; 
+}
+
