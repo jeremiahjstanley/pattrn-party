@@ -61,3 +61,58 @@
 	grid-column: 2 / 4;
 	grid-row: 3;
 }
+
+@media only screen and (max-width: 800px) {
+
+	.flexible-card-container {
+		grid-column-gap: 1rem;
+		grid-template-columns: : 48% 48%;
+		min-width: 0;
+		width: 90%;
+	}
+	
+	.card-2 {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	.card-3 {
+		grid-column: 2;
+	}
+
+	.card-4 {
+		grid-column: 1;
+		grid-row: 3;
+	}
+
+	.card-5 {
+		grid-column: 2;
+		grid-row: 3;
+	}
+
+	.card-6 {
+		grid-column: 1;
+		grid-row: 4;
+	}
+
+	.card-7 {
+		grid-column: 2;
+		grid-row: 4;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+	.flexible-card-container {
+		display: block;
+		width: 90%;
+	}
+
+	.flexible-card {
+		text-align: left;
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+		
+}

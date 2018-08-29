@@ -1,8 +1,9 @@
 
 .main-body-accordion {
 	margin: 3rem auto;
+	max-width: 50rem;
 	min-width: 30rem;
-	width: 60%;
+	width: 90%;
 }
 
 ul {
@@ -69,4 +70,35 @@ a {
 	font-size: .75rem;
 	line-height: 1.5;
 	margin: 1rem 0;
+}
+
+@media only screen and (max-width: 650px) {
+
+	.main-body-accordion li {
+		text-align: left;
+		padding: .5rem 2rem;
+	}
+
+	.active-tab-content {
+		text-align: left;
+		display: block;
+	}
+
+	.accordion-tab-image{
+			margin-bottom: 2rem;
+	}
+			
+}
+
+@media only screen and (max-width: 500px) {
+
+	ul {
+		flex-direction: column;
+	}
+
+	.main-body-accordion {
+		min-width: 0;
+		width: 90%;
+	}
+			
 }
