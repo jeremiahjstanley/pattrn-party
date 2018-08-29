@@ -33,7 +33,7 @@ body {
 	margin-bottom: 3rem;
 }
 
-.main-body-elements{
+.main-body-elements {
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
@@ -62,4 +62,35 @@ body {
 	padding: .5rem;
 	text-transform: uppercase;
 	width: 20%;
+}
+
+@media only screen and (max-width: 950px) {
+	
+	.main-body-elements-header {
+		margin: 0 auto;	
+		width: 10rem;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+	.main-body {
+		display: block;
+		text-align: center;
+	}
+
+	.main-body-code-button {
+		width: 7.5rem;
+	}
+
+	.main-body-elements {
+		display: block;
+	}
+
+	.menu-bar-header,
+	.menu-bar-profile-name {
+		padding: 0 1rem;
+	}
+		
 }
