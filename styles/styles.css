@@ -1,0 +1,64 @@
+body {
+	font-family: 'Open Sans', Sans-Serif;
+}
+
+.menu-bar {
+	align-items: center;
+	background-color: #3F3244;
+	display: flex;
+	height: 4vh;
+	justify-content: space-between;
+}
+
+.menu-bar-header,
+.menu-bar-profile-name {
+	color: #FFFFFF;
+	font-size: 1.25rem;
+	font-weight: 300;
+	padding: 0 3rem;
+	text-transform: uppercase;
+}
+
+.menu-bar-header-subheader {
+	color: #34D1D1;
+}
+
+.menu-bar-profile-name {
+	font-size: 1rem;
+	text-transform: initial;
+}
+
+.main-body {
+	display: grid;
+	margin-bottom: 3rem;
+}
+
+.main-body-elements{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 3rem auto;
+	width: 80%;
+}
+
+.main-body-elements-header {
+	font-weight: 300;
+	margin: .5rem;
+	text-transform: uppercase;
+}
+
+.main-body-elements-hr {
+	height: .01rem;
+	vertical-align: middle;
+	width: inherit;
+}
+
+.main-body-code-button {
+	background-color: #3F3244;
+	color: #FFFFFF;
+	font-weight: lighter;
+	justify-self: center;
+	padding: .5rem 4rem;
+	text-transform: uppercase;
+	width: 20%;
+}

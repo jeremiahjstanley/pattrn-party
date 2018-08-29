@@ -6,88 +6,145 @@
 	<title>Pattern Party</title>
 	<link rel="stylesheet" href="styles/reset.css">
 	<link rel="stylesheet" href="styles/styles.css">
-	<link rel="stylesheet" href="accordion-tabs.css">
-	<link rel="stylesheet" href="flexible-cards.css">
+	<link rel="stylesheet" href="styles/accordion-tabs.css">
+	<link rel="stylesheet" href="styles/flexible-cards.css">
 </head>
 <body>
+
 	<header class='menu-bar'>
-		<h1 class='menu-bar-header'>Pattrn Party</h1>
+		<h1 class='menu-bar-header'>
+			Pattrn
+			<span class='menu-bar-header-subheader'>Party</span>
+		</h1>
 		<h2 class='menu-bar-profile-name'>Jeremiah Stanley</h2>
 	</header>
+
 	<main class='main-body'>
-		<h4 class='main-body-element-header'>Accordion Tabs</h4>
-		<hr class='main-body-hr'>
-		<ul class='main-body-accordion-ul'>
-			<li>Tab 1</li>
-			<li>Tab 2</li>
-			<li>Tab 3</li>
-			<li>Tab 4</li>
-		</ul>
-		<section class='main-body-accordion-tab'>
-			<h3>Tab 1 Content</h3>
-			<hr class='main-body-accordion-hr'>
-			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-				nonummy nibh euismod tincidunt ut laoreet dolore magna
-				aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-				exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-				commodo consequat.
-			</p>
-			<p>
-				Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-				molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-				vero eros et accumsan et iusto odio dignissim qui blandit.
-			</p>
-		</section>
-		<section class='main-body-accordion-tab'>
-			<h3>Tab 1 Content</h3>
-			<hr class='main-body-accordion-hr'>
-			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-				nonummy nibh euismod tincidunt ut laoreet dolore magna
-				aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-				exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-				commodo consequat.
-			</p>
-			<p>
-				Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-				molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-				vero eros et accumsan et iusto odio dignissim qui blandit.
-			</p>
-		</section>
-		<section class='main-body-accordion-tab'>
-			<h3>Tab 1 Content</h3>
-			<hr class='main-body-accordion-hr'>
-			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-				nonummy nibh euismod tincidunt ut laoreet dolore magna
-				aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-				exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-				commodo consequat.
-			</p>
-			<p>
-				Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-				molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-				vero eros et accumsan et iusto odio dignissim qui blandit.
-			</p>
-		</section>
-		<section class='main-body-accordion-tab tab-1'>
-			<h3>Tab 1 Content</h3>
-			<hr class='main-body-accordion-hr'>
-			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-				nonummy nibh euismod tincidunt ut laoreet dolore magna
-				aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-				exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-				commodo consequat.
-			</p>
-			<p>
-				Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-				molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-				vero eros et accumsan et iusto odio dignissim qui blandit.
-			</p>
-		</section>
+
+		<div class='main-body-elements'>
+			<h4 class='main-body-elements-header'>Accordion Tabs</h4>
+			<hr class='main-body-elements-hr'>
+		</div>
+
+		<div class='main-body-accordion'>
+			<ul>
+				<li class='main-body-accordion-li active-tab-li'>
+					<a href='' name='tab1'>Tab 1</a>
+				</li>
+				<li class='main-body-accordion-li'>
+					<a href='' name='tab2'>Tab 2</a>
+				</li>
+				<li class='main-body-accordion-li'>
+					<a href='' name='tab3'>Tab 3</a>
+				</li>
+				<li class='main-body-accordion-li'>
+					<a href='' name='tab4'>Tab 4</a>
+				</li>
+			</ul>
+
+			<section class='main-body-accordion-tab active-tab-content' value='tab1'>
+				<h3>Tab 1 Content</h3>
+				<hr class='main-body-accordion-hr'>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+					nonummy nibh euismod tincidunt ut laoreet dolore magna
+					aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+					exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+					commodo consequat.
+				</p>
+				<p>
+					Nullam eu auctor nunc. Nullam bibendum sollicitudin eros, in auctor tortor tincidunt vel. Ut id justo semper, ornare lorem sed, condimentum orci. Integer et enim felis.
+				</p>
+			</section>
+
+			<section class='main-body-accordion-tab' value='tab2'>
+				<h3>Tab 2 Content</h3>
+				<hr class='main-body-accordion-hr'>
+				<p>
+					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+					molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+					vero eros et accumsan et iusto odio dignissim qui blandit.
+				</p>
+			</section>
+
+			<section class='main-body-accordion-tab' value='tab3'>
+				<h3>Tab 3 Content</h3>
+				<hr class='main-body-accordion-hr'>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+					nonummy nibh euismod tincidunt ut laoreet dolore magna
+					aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+					exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+					commodo consequat.
+				</p>
+			</section>
+
+			<section class='main-body-accordion-tab' value='tab4'>
+				<h3>Tab 4 Content</h3>
+				<hr class='main-body-accordion-hr'>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+					nonummy nibh euismod tincidunt ut laoreet dolore magna
+					aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+					exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+					commodo consequat.
+				</p>
+			</section>
+			</div>
+
+			<button class='main-body-code-button'>View Code</button>
+
+			<div class='main-body-elements'>
+				<h4 class='main-body-elements-header'>Flexible Cards</h4>
+				<hr class='main-body-elements-hr'>
+			</div>
+
+			<div class='flexible-card-container'>
+				
+				<article class='flexible-card card-1'>
+					<h2>Flexible Card 1</h2>
+					<img src="" alt="" class='flexible-card-image'>
+				</article>
+
+				<article class='flexible-card card-2'>
+					<h2>Flexible Card 2</h2>
+					<img src="" alt="" class='flexible-card-image'>
+				</article>
+
+				<article class='flexible-card card-3'>
+					<h2>Flexible Card 3</h2>
+					<img src="" alt="" class='flexible-card-image'>
+				</article>
+
+				<article class='flexible-card card-4'>
+					<h2>Flexible Card 4</h2>
+					<img src="" alt="" class='flexible-card-image'>
+				</article>
+
+				<article class='flexible-card card-5'>
+					<h2>Flexible Card 5</h2>
+					<img src="" alt="" class='flexible-card-image'>
+				</article>
+
+				<article class='flexible-card card-6'>
+					<h2>Flexible Card 6</h2>
+					<img src="" alt="" class='flexible-card-image'>
+				</article>
+
+				<article class='flexible-card card-7'>
+					<h2>Flexible Card 7</h2>
+					<img src="" alt="" class='flexible-card-image'>
+				</article>
+
+
+			</div>
+
+			<button class='main-body-code-button'>View Code</button>
+
 
 	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="./scripts/jquery.min/jquery.min.js"><\/script>')</script>
+	<script src="./scripts/scripts.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
