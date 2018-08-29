@@ -32,8 +32,8 @@ a {
 }
 
 .main-body-accordion li {
-	display: inline;
 	cursor: pointer;
+	display: inline;
 }
 
 .main-body-accordion-tab {
@@ -43,15 +43,30 @@ a {
 	padding: 2rem;
 }
 
+.active-tab-content {
+	display: grid;
+	grid-gap: 5%;
+	grid-template-columns: 30% 65%;
+}
+
+.accordion-tab-image{
+	border: .1rem solid #D1D2D3;
+	grid-column: 1;
+	height: 200px;
+	object-fit: fill;
+	width: 100%;
+}
+
+.accordion-tab-content {
+	grid-column: 2;
+}
+
 .main-body-accordion h3 {
 	font-weight: 700;
 }
 
 .main-body-accordion p {
+	font-size: .75rem;
 	line-height: 1.5;
 	margin: 1rem 0;
-}
-
-.active-tab-content {
-	display: block;
 }
