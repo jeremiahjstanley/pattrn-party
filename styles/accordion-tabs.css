@@ -26,8 +26,8 @@ a {
 
 .active-tab-li { 
 	background-color: #FFFFFF;
-	border-bottom: 0;
 	border: 1.5px solid #D1D2D3;
+	border-bottom: 0;
 	font-weight: 600;
 }
 
@@ -37,8 +37,8 @@ a {
 }
 
 .main-body-accordion-tab {
-	border-top: 0;
 	border: 1.5px solid #D1D2D3;
+	border-top: 0;
 	display: none;
 	padding: 2rem;
 }
