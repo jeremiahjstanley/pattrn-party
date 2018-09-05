@@ -6,17 +6,9 @@
 	width: 90%;
 }
 
-ul {
+.main-body-accordion ul {
 	display: grid;
 	grid-template-columns: 24% 24% 24% 24%
-}
-
-li {
-	grid-row: 1
-}
-
-section {
-	grid-row: 2
 }
 
 .main-body-accordion-li {
@@ -44,12 +36,14 @@ a {
 .main-body-accordion li {
 	cursor: pointer;
 	display: inline;
+	grid-row: 1;
 }
 
 .main-body-accordion-tab {
 	border: 1.5px solid #D1D2D3;
 	border-top: 0;
 	display: none;
+	grid-row: 2;
 	padding: 2rem;
 }
 
@@ -61,7 +55,7 @@ a {
 }
 
 .accordion-tab-image{
-	border: .1rem solid #D1D2D3;
+	border: .05rem solid #D1D2D3;
 	grid-column: 1;
 	height: 200px;
 	object-fit: fill;
@@ -102,8 +96,8 @@ a {
 
 @media only screen and (max-width: 500px) {
 
-	ul {
-		border: .1rem solid #D1D2D3;
+.main-body-accordion ul {
+		border: .05rem solid #D1D2D3;
 		display: flex;
 		flex-direction: column;
 	}
