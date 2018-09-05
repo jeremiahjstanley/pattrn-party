@@ -64,6 +64,12 @@ body {
 	width: 20%;
 }
 
+.cp_embed_wrapper {
+	width: 80%;
+	min-width: 20rem;
+	margin: 3rem auto 0;
+}
+
 @media only screen and (max-width: 950px) {
 	
 	.main-body-elements-header {
