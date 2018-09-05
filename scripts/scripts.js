@@ -1,4 +1,4 @@
-$('li').on('click', selectTab);
+$('.main-body-accordion-li').on('click', selectTab);
 
 function selectTab(event) {
 	event.preventDefault()
@@ -17,3 +17,10 @@ function selectContent(id) {
 		}
 	});
 };
+
+$('.menu-bar-close-button').on('click', toggleDropdown)
+
+function toggleDropdown() {
+	$('.menu-bar-input').toggleClass('hide');
+	$('.menu-bar-navigation-links').toggleClass('hide');
+}
