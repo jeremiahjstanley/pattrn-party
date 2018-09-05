@@ -10,7 +10,7 @@
 }
 
 .flexible-card {
-	border: .1rem solid #D1D2D3;
+	border: .05rem solid #D1D2D3;
 }
 
 .flexible-card h2 {
@@ -20,7 +20,7 @@
 }
 
 .flexible-card-image {
-	border-top: .1rem solid #D1D2D3;
+	border-top: .05rem solid #D1D2D3;
 	height: 200px;
 	margin-bottom: -2.5px;
 	object-fit: fill;
