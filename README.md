@@ -1,7 +1,7 @@
 #  Pattrn Party
 
-[Original Comp](http://frontend.turing.io/projects/pattrn-party.html)
-[Deployed Style Guide](https://jeremiahjstanley.github.io/pattrn-party/)
+* [Original Comp](http://frontend.turing.io/projects/pattrn-party.html)
+* [Deployed Style Guide](https://jeremiahjstanley.github.io/pattrn-party/)
 
 <img alt="AccordionTabs" src="./images/AccordionTabs.png">
 <img alt="FlexibleCards" src="./images/FlexibleCards.png">
@@ -22,8 +22,8 @@ This idea of having a small library of page components is outlined in Brad Frost
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
-* [JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [JQUERY](https://developer.mozilla.org/en-US/docs/Glossary/jQuery)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery)
 
 #### CONTRIBUTORS
 [Jeremiah Stanley](https://github.com/jeremiahjstanley/pattrn-party)
